@@ -64,4 +64,17 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
+
+    //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    //Coroutines
+    implementation("org.jetbrains.kotlin:kotlinx-coroutines-android:1.7.3")
+
+    //lifecycle viewmodel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.10.0")
+
+    //stateflow collect
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.10.0")
 }
